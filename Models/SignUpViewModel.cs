@@ -7,14 +7,13 @@ namespace StudentManagementSystem.Models
 {
     public class SignUpViewModel
     {
-        private string? _UserName { get; }
-        public int ID { get; set; }
+        //private string? _UserName { get; }
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? Surname { get; set; }
         public string? Email { get; set; }
         public string? Password { get; set; }
+        public string? ConfirmPassword { get; set; }
 
-        public static void GenerateUsername()
-        {
-
-        }
     }
 }

@@ -23,6 +23,11 @@ namespace StudentManagementSystem.Controllers
         {
             return View();
         }
+        //GET: /Authentication/Register
+        public IActionResult Register()
+        {
+            return View();
+        }
     }
 }
 
